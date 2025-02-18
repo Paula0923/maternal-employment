@@ -15,13 +15,10 @@ The data set was compiled from the [**OECD Family Database**](https://www.oecd.o
 - Columns i.e. contain the following information: GDP, unemployment, maternal employment, part-time rates, gender pay gap, leave policies etc.
 
 ## Approach
-In order to have a comprehensive dataset, I limited the number of countries to only **members of the European Union** because the data was most complete. I had to exclude Slovakia and Czech Republic from the analysis because the data for them had a missing values rate of over 60%.
-
-After cleaning the data, I created some **new columns using feature engineering**. In this case, I used **logarithmic transformation, scale normalization and categorization** to have new, comparable columns on the **education levels of women** and the **spending on family benefits**.
-
-I then formulated **hypotheses** and analysed them using **EDA methods**. In the event that this gave me indications of the possible confirmation of a hypothesis, I then tested the respective **hypothesis with inferential statistics**: primarily with t-tests, ANOVA and OLS regression.
-
-Finally, I included all indicators in an **OLS regression model** and improved this model step by step until I found a set of variables that explained a good part of maternal employment.
+1. In order to have a comprehensive dataset, I limited the number of countries to only **members of the European Union** because the data was most complete. I had to exclude Slovakia and Czech Republic from the analysis because the data for them had a missing values rate of over 60%.
+2. After cleaning the data, I created some **new columns using feature engineering**. In this case, I used **logarithmic transformation, scale normalization and categorization** to have new, comparable columns on the **education levels of women** and the **spending on family benefits**.
+3. I then formulated **hypotheses** and analysed them using **EDA methods**. In the event that this gave me indications of the possible confirmation of a hypothesis, I then tested the respective **hypothesis with inferential statistics**: primarily with t-tests, ANOVA and OLS regression.
+4. Finally, I included all indicators in an **OLS regression model** and improved this model step by step until I found a set of variables that explained a good part of maternal employment.
 
 ## 🟠 **Key Findings: Hypotheses**
 | Hypothesis    | EDA Finding | Inferential review     |
@@ -41,14 +38,14 @@ Many of the predictors do not have a linear relationship with the target, I ther
 These three predictors together explain **46.3 %** (R² Adjusted: 38.6 %) of the maternal employment rate with the **individual impacts** being as follows (sorted by importance):
 | Predictor                      | Unit             | Effect on Mat. Emp. | In std |
 |--------------------------------|:---------------|:------------------|:------:|
-| Fully Paid Leave for Fathers   | ⬆️ by 1 week   | ⬆️ by 0.8 %       | +3.5   |
-| Education Level Women          | ⬆️ by 1 point[^1] | ⬆️ by 14.3 %      | +3.4   |
-| Unemployment                   | ⬆️ by 1 %       | ⬇️ by 1.2 %       | -2.6   |
+| Fully Paid Leave for Fathers   | 🟢⬆️ by 1 week   | 🟢⬆️ by 0.8 %       | +3.5   |
+| Education Level Women          | 🟢⬆️ by 1 point[^1] | 🟢⬆️ by 14.3 %      | +3.4   |
+| Unemployment                   | 🟢⬆️ by 1 %       | 🔴⬇️ by 1.2 %       | -2.6   |
 
 ## 🟠 **Highlighting the Most Interesting Results**
 1. If a country wants to increase maternal employment, there are several approaches for the effectiveness of which indications were found here:
-    - Extension of paternity leave
-    - Raising the educational level of women
+    - An **extension of paternity leave** could improve maternal employment rates greatly. Also, in many countries, there is a lot of room for improvement regarding this.
+    - **Raising the educational level of women** also is a great influence factor, most likely because this leads to better paid jobs (=more possibilities regarding child care) and more job security.
 2. For countries struggling with a high maternal age at first birth (and with a low fertility, as these two correlate moderately):
     - There is a **great impact of the length of paid maternal leave on the age of first-time mothers**: An OLS regression showed that an extension of one week could lower the mother's age at first child by approx. two weeks.
 
