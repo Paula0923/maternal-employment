@@ -26,7 +26,7 @@ Finally, I included all indicators in an **OLS regression model** and improved t
 | H1: Countries with higher public **spending on family benefits** have a higher maternal employment rate.    | ❌    |    |
 | H2: Mothers in **partnerships** have a higher employment rate than **single mothers**. This difference is smaller in countries with higher spending on family benefits.     | ✅    | ❌  |
 | H3: Countries with longer fully paid **parental leave for fathers** have a higher maternal employment rate. | ✅     | ❌  |
-| H4: The higher the **education level of women** in a country, the higher the maternal employment rate.    | ✅     | ✅ (20.6%)   |
+| H4: The higher the **education level of women** in a country, the higher the maternal employment rate.    | ✅     | ✅  |
 | H5: Countries with a higher proportion of **female managers** have higher maternal employment rates.     | ❌    |   |
 | H6: In countries where more **men work part-time**, maternal employment rates are higher. | ✅     | ❌  |
 | H7: In countries with a lower **gender pay gap**, maternal employment rates are higher. | ❌    |   |
@@ -37,7 +37,7 @@ Many of the predictors do not have a linear relationship with the target, I ther
 
 These three predictors together explain **46.3 %** (R² Adjusted: 38.6 %) of the maternal employment rate with the **individual impacts** being as follows (sorted by importance):
 | Predictor                      | Unit             | Effect on Mat. Emp. | In std |
-|--------------------------------|:---------------:|:------------------:|:------:|
+|--------------------------------|:---------------|:------------------|:------:|
 | Fully Paid Leave for Fathers   | ⬆️ by 1 week   | ⬆️ by 0.8 %       | +3.5   |
 | Education Level Women          | ⬆️ by 1 point[^1] | ⬆️ by 14.3 %      | +3.4   |
 | Unemployment                   | ⬆️ by 1 %       | ⬇️ by 1.2 %       | -2.6   |
