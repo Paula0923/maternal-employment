@@ -1,4 +1,4 @@
-# Comparison of Maternal Employment and Related Indicators in EU Countries
+# EU Comparison of Maternal Employment and Related Indicators
 
 <img src="images/mama.jpg" alt="Mother and Child" width="400"/>  <img src="images/mama2.png" alt="Mother and Child" width="400"/>
 
@@ -20,7 +20,7 @@ After cleaning the data, I created some **new columns using feature engineering*
 I then formulated **hypotheses** and analysed them using **EDA methods**. In the event that this gave me indications of the possible confirmation of a hypothesis, I then tested the respective **hypothesis with inferential statistics**: primarily with t-tests, ANOVA and OLS regression.
 Finally, I included all indicators in an **OLS regression model** and improved this model step by step until I found a set of variables that explained a good part of maternal employment.
 
-## <span style="color: #ec7511;">Key Findings: Hypotheses</span>
+## 🟠 **Key Findings: Hypotheses**
 | Hypothese    | EDA Finding | Inferential review     |
 |:---------|:-------:|:----------:|
 | H1: Countries with higher public **spending on family benefits** have a higher maternal employment rate.    | ❌    |    |
@@ -31,17 +31,17 @@ Finally, I included all indicators in an **OLS regression model** and improved t
 | H6: In countries where more **men work part-time**, maternal employment rates are higher. | ✅     | ❌  |
 | H7: In countries with a lower **gender pay gap**, maternal employment rates are higher. | ❌    |   |
 
-## <span style="color: #ec7511;">Key Findings: OLS Regression</span>
+## 🟠 **Key Findings: OLS Regression**
 Many of the predictors do not have a linear relationship with the target, I therefore excluded them from the regression model in the end. After several steps to improve the model, three predictors were found to be very interesting:
 - **Unemployment, the education level of women and the length of paid leave for fathers**.
 These three predictors together explain **46.3 %** (R² Adjusted: 38.6 %) of the maternal employment rate with the **individual impacts** being as follows (sorted by importance):
-| Predictor    | Unit | Effect on Mat. Emp.    | In std   |
-|:---------|:-------:|:----------:|:----------:|
-| Fully Paid Leave for Fathers    | ⬆️ by 1 week    | ⬆️ by 0.8 %    | + 3.5    |
-| Education Level Women    | ⬆️ by 1 point[^1]   | ⬆️ by 14.3 %  |  + 3.4   |
-| Unemployment | ⬆️ by 1 %     | ⬇️ by 1.2 %  | - 2.6    |
+| Predictor                      | Unit             | Effect on Mat. Emp. | In std |
+|--------------------------------|:---------------:|:------------------:|:------:|
+| Fully Paid Leave for Fathers   | ⬆️ by 1 week   | ⬆️ by 0.8 %       | +3.5   |
+| Education Level Women          | ⬆️ by 1 point[^1] | ⬆️ by 14.3 %      | +3.4   |
+| Unemployment                   | ⬆️ by 1 %       | ⬇️ by 1.2 %       | -2.6   |
 
-## <span style="color: #ec7511;">Highlighting the Most Interesting Results</span>
+## 🟠 **Highlighting the Most Interesting Results**
 1. If a country wants to increase maternal employment, there are several approaches for the effectiveness of which indications were found here:
         - Extension of paternity leave
         - Raising the educational level of women
