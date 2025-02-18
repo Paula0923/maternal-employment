@@ -16,8 +16,11 @@ The data set was compiled from the [**OECD Family Database**](https://www.oecd.o
 
 ## Approach
 In order to have a comprehensive dataset, I limited the number of countries to only **members of the European Union** because the data was most complete. I had to exclude Slovakia and Czech Republic from the analysis because the data for them had a missing values rate of over 60%.
+
 After cleaning the data, I created some **new columns using feature engineering**. In this case, I used **logarithmic transformation, scale normalization and categorization** to have new, comparable columns on the **education levels of women** and the **spending on family benefits**.
+
 I then formulated **hypotheses** and analysed them using **EDA methods**. In the event that this gave me indications of the possible confirmation of a hypothesis, I then tested the respective **hypothesis with inferential statistics**: primarily with t-tests, ANOVA and OLS regression.
+
 Finally, I included all indicators in an **OLS regression model** and improved this model step by step until I found a set of variables that explained a good part of maternal employment.
 
 ## 🟠 **Key Findings: Hypotheses**
@@ -33,7 +36,7 @@ Finally, I included all indicators in an **OLS regression model** and improved t
 
 ## 🟠 **Key Findings: OLS Regression**
 Many of the predictors do not have a linear relationship with the target, I therefore excluded them from the regression model in the end. After several steps to improve the model, three predictors were found to be very interesting:
-- **Unemployment, the education level of women and the length of paid leave for fathers**.
+**Unemployment**, the **education level of women** and the length of paid **leave for fathers**.
 
 These three predictors together explain **46.3 %** (R² Adjusted: 38.6 %) of the maternal employment rate with the **individual impacts** being as follows (sorted by importance):
 | Predictor                      | Unit             | Effect on Mat. Emp. | In std |
