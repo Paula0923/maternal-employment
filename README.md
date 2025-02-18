@@ -34,6 +34,7 @@ Finally, I included all indicators in an **OLS regression model** and improved t
 ## 🟠 **Key Findings: OLS Regression**
 Many of the predictors do not have a linear relationship with the target, I therefore excluded them from the regression model in the end. After several steps to improve the model, three predictors were found to be very interesting:
 - **Unemployment, the education level of women and the length of paid leave for fathers**.
+
 These three predictors together explain **46.3 %** (R² Adjusted: 38.6 %) of the maternal employment rate with the **individual impacts** being as follows (sorted by importance):
 | Predictor                      | Unit             | Effect on Mat. Emp. | In std |
 |--------------------------------|:---------------:|:------------------:|:------:|
@@ -57,9 +58,7 @@ In the code and in the presentation, you can find many analyses and visualizatio
 - Additionally, there is a odf with the **presentation** on my findings and also challenges and limitations of the project. You can also find the presentation [**here**]("https://www.canva.com/design/DAGfKMQn6C4/5c0Y3Y31uIcPZIidA-mW7A/edit?utm_content=DAGfKMQn6C4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton").
 
 ## About the Author
-Paula Boks, based in Riga and Berlin.
-
-Political Scientist with a love of numbers, currently in an additional qualification program as data analyst.
+Paula Boks, based in Riga and Berlin: **Political Scientist** with a love of numbers, currently in an additional qualification program as **data analyst**.
 
 ![hands-20333_1280](images/hands.jpg)
 
