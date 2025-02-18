@@ -21,7 +21,7 @@ I then formulated **hypotheses** and analysed them using **EDA methods**. In the
 Finally, I included all indicators in an **OLS regression model** and improved this model step by step until I found a set of variables that explained a good part of maternal employment.
 
 ## 🟠 **Key Findings: Hypotheses**
-| Hypothese    | EDA Finding | Inferential review     |
+| Hypothesis    | EDA Finding | Inferential review     |
 |:---------|:-------:|:----------:|
 | H1: Countries with higher public **spending on family benefits** have a higher maternal employment rate.    | ❌    |    |
 | H2: Mothers in **partnerships** have a higher employment rate than **single mothers**. This difference is smaller in countries with higher spending on family benefits.     | ✅    | ❌  |
@@ -44,10 +44,10 @@ These three predictors together explain **46.3 %** (R² Adjusted: 38.6 %) of the
 
 ## 🟠 **Highlighting the Most Interesting Results**
 1. If a country wants to increase maternal employment, there are several approaches for the effectiveness of which indications were found here:
-        - Extension of paternity leave
-        - Raising the educational level of women
+    - Extension of paternity leave
+    - Raising the educational level of women
 2. For countries struggling with a high maternal age at first birth (and with a low fertility, as these two correlate moderately):
-        - There is a **great impact of the length of paid maternal leave on the age of first-time mothers**: An OLS regression showed that an extension of one week could lower the mother's age at first child by approx. two weeks.
+    - There is a **great impact of the length of paid maternal leave on the age of first-time mothers**: An OLS regression showed that an extension of one week could lower the mother's age at first child by approx. two weeks.
 
 ## More on This Project
 In the code and in the presentation, you can find many analyses and visualizations regarding the comparison of the countries. I.e. the fertility rate, age of mothers, gender pay gap, part-time rates etc. per country and in comparison to the others.
