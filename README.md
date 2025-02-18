@@ -1,6 +1,6 @@
 # Comparison of Maternal Employment and Related Indicators in EU Countries
 
-<img src="images/mama.jpg" alt="Mother and Child" width="400"/>  <img src="images/mama2.jpg" alt="Mother and Child" width="400"/>
+<img src="images/mama.jpg" alt="Mother and Child" width="400"/>  <img src="images/mama2.png" alt="Mother and Child" width="400"/>
 
 ## Overview
 In this project, I analyse various influence factors on maternal employment in the member countries of the European Union. The data was gathered from OECD Family Database and Eurostat and includes the EU-27. Using Exploratory Data Analysis, Inferential Statistics and Regression Models, my goal is to find out why maternal employment rates are different in the countries and which factors might influence this.
