@@ -55,7 +55,8 @@ In the code and in the presentation, you can find many analyses and visualizatio
 ## Repository Content
 - First of all, this repo contains the code I used to analyse my dataset: a notebook on eda (which also includes cleaning and feature engineering) (**eda-maternal-employment**) and a different one on hypothesis testing and regression analysis (**inferential-maternal-employment**). Also, you can find the **requirements for the code** here.
 - In the **data folder**, you can find the **original data** with excel files downloaded from OECD and Eurostat, as well as the **edited data** which I edited structurally, so that I could import and merge it using python.
-- Additionally, there is a odf with the **presentation** on my findings and also challenges and limitations of the project. You can also find the presentation [**here**]("https://www.canva.com/design/DAGfKMQn6C4/5c0Y3Y31uIcPZIidA-mW7A/edit?utm_content=DAGfKMQn6C4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton").
+- Additionally, there is a pdf with the **presentation** on my findings and also challenges and limitations of the project. You can also find the presentation [**here**]("https://docs.google.com/presentation/d/1RutfatLENct29dW8a8lfdqYr5lIIoQLEGid_mEOHhxc/edit?usp=sharing").
+- Please also take a look at more visualizations in the Tableau Dashboard [**here**]("https://public.tableau.com/shared/NFHD8N7HY?:display_count=n&:origin=viz_share_link"), you can also find the file in this repository.
 
 ## About the Author
 Paula Boks, based in Riga and Berlin: **Political Scientist** with a love of numbers, currently in an additional qualification program as **data analyst**.
